@@ -7,7 +7,7 @@ import numpy as np
 st.set_page_config(page_title="Business Performance Dashboard", layout="wide")
 
 # Load data
-company_df = pd.read_csv("/Financials.csv")
+company_df = pd.read_csv("Financials.csv")
 
 # Preprocessing
 # Strip leading/trailing spaces from column names
